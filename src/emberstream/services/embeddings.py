@@ -89,4 +89,4 @@ def telemetry_to_text(
         parts.append(f"location={location}")
     if notes:
         parts.append(f"notes={notes}")
-    re
+    return " | ".join(parts)
